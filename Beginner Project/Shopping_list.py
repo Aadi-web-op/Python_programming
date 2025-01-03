@@ -8,6 +8,8 @@ availabelItmes = {
 
 def display_available_items(a):
     print("\t\t Available Items")
-    print(f'{'S.No.':<15}{'Item':<15}{'Quantity'<15}{'Cost/item':<15}')
-    for index, row in dict.items():
-        print(f"{index:<15}{row['Item']:<15}{row['Quantity']:<15}{row['Cost/item']:<15}")
+    print(f'{'S.No.':<15}{'Item':<15}{'Quantity':<15}{'Cost/Item':<15}')
+    for index, row in a.items():
+        print(f"{index:<15}{row['Item']:<15}{row['Quantity']:<15}{row['Cost/Item']:<15}")
+
+display_available_items(availabelItmes)
