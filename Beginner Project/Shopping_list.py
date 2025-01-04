@@ -13,3 +13,5 @@ def display_available_items(a):
         print(f"{index:<15}{row['Item']:<15}{row['Quantity']:<15}{row['Cost/Item']:<15}")
 
 display_available_items(availabelItmes)
+
+user_cart = {'Biscuits': 3, 'Chocolates': 7, 'Coffee': 20, 'Chips': 13, 'Cream': 7}
